@@ -11,7 +11,8 @@ export class CartService {
   constructor() { }
 
   addToCart(product: Product) {
-    this.items.push(product)
+    this.items.push(product);
+    alert("Product added to cart")
   }
 
   getItems() {
