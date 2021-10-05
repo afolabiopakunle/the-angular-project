@@ -30,6 +30,7 @@ import { CartComponent } from './cart/cart.component';
     ProductAlertsComponent,
     FocusDirective,
     CartComponent,
+    ProductDetailsComponent
   ],
   bootstrap: [
     AppComponent
