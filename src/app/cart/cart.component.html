@@ -1,6 +1,12 @@
 <h3>Cart</h3>
 
+<ng-container *ngIf="cartItems">
 <div class="cart-item" *ngFor="let item of cartItems">
 <span>{{ item.name }}</span>
 <span>{{ item.price }}</span>
 </div>
+</ng-container>
+
+<ng-container *ngIf="cartItems.length === 0">
+  <div>No items added yets</div>
+</ng-container>
